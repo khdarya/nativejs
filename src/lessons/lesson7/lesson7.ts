@@ -40,18 +40,20 @@ console.log('lesson 7');
 // 3. Написать функцию которая принимает в качестве аргументов объект functionObj, функции из условия 2 и любое число.
 // данная функция должна в произвольном порядке применять функции из объекта к полученному числу столько раз, сколько
 // сгенерирует функция с диапазоном до 8.
-
-type FunctionsObjectType = {
-    '0': (n: number) => number;
-    '1': (n: number) => number;
-    '2': (n: number) => number;
-    '3': (n: number) => number;
-}
-
-const functionObj: FunctionsObjectType = {
-    '0': (n) => n + 2,
-    '1': (n) => n * n,
-    '2': (n) => n - (n * 0.5),
-    '3': (n) => n * (n * 0.5),
-}
+//
+// type FunctionsObjectType = {
+//     '0': (n: number) => number;
+//     '1': (n: number) => number;
+//     '2': (n: number) => number;
+//     '3': (n: number) => number;
+//     '4': (n: number) => number;
+// }
+//
+// const functionObj: FunctionsObjectType = {
+//     '0': (n) => n + 2,
+//     '1': (n) => n * n,
+//     '2': (n) => n - (n * 0.5),
+//     '3': (n) => n * (n * 0.5),
+//     '4': (n) => n / (n * 0.5),
+// }
 

@@ -1,5 +1,5 @@
 // @ts-ignore
-console.log('lesson 2'); // 2020-07-05 Vlad / 2020-08-02 Eugene
+console.log('lesson 2');
 
 ////////// The helpful links about arrays
 // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array

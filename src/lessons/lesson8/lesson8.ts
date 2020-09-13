@@ -84,26 +84,26 @@ console.log(state === initialState); // true
 
 // Необходимо заполнить action и дописать код функции reducer c использование switch case, что бы
 // следующие действия работали корректно:
-
+//@ts-ignore
 let setCurrentPageAction: ActionType = {};
 
 state = reducer(state, setCurrentPageAction);
 console.log(state.currentPage === 2); //true
 console.log(state.currentPage === initialState.currentPage); //false
 console.log(initialState.currentPage === 1); //true
-
+//@ts-ignore
 let setPageAmountAction: ActionType = {};
 
 state = reducer(state, setPageAmountAction);
 console.log(state.pageAmount === 58); //true
 console.log(state.pageAmount === initialState.pageAmount); //false
-
+//@ts-ignore
 let setActiveStatusAction: ActionType = {};
 
 state = reducer(state, setActiveStatusAction);
 console.log(state.isActive); //true
 console.log(state.isActive === initialState.isActive); //false
-
+//@ts-ignore
 let complicatedAction: ActionType = {};
 
 state = reducer(state, complicatedAction);
