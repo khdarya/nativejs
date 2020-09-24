@@ -194,7 +194,7 @@ const exampleObj: ExampleObjType = {
     capital: 'Minsk',
     capitalPopulation: 2,
     amountOfProgrammersInCountry: 0.05,
-    null: null,
+   // null: null,
 }
 
 type NewObjType = {
