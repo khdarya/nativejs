@@ -1,1 +1,1 @@
-import * as lesson1 from './lesson5';
+import * as lesson1 from './lesson5Vlad';

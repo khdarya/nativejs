@@ -4,9 +4,9 @@ console.log('lesson 2');
  const arr1: Array<number> = [undefined,2,3,4,5];
 
 /!* //spread
- const arr2: Array<string> =['vlad','petia','vasya'];
- const arr3: Array<any> = [14, ...arr2, 10, ...arr1];
-console.log(arr3);*!/
+//  const arr2: Array<string> =['vlad','petia','vasya'];
+//  const arr3: Array<any> = [14, ...arr2, 10, ...arr1];
+// console.log(arr3);*!/
 
 //rest
 const [a = 'custom value', b, ...rest] = arr1;

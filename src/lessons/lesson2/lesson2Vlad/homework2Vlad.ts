@@ -82,3 +82,6 @@ export function flatArray(arr: Array<any>): Array<any> {
     },[]);
 }
 
+
+//const f = (acc) => arr.reduce((acc, item) => Array.isArray(item) ? [...acc, ...flatArray(item)] : [...acc, item], []);
+

@@ -1,5 +1,5 @@
 // @ts-ignore
-console.log('lesson6');
+console.log('lesson6');   //2020-08-30
 
 //// Деструктуризация, спред, рест
 // https://learn.javascript.ru/destructuring

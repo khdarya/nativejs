@@ -1,4 +1,4 @@
-import {createPromise} from "./lesson5";
+import {createPromise} from "./lesson5Vlad";
 
 describe('',()=>{
     it('promise',()=>{
